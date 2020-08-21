@@ -1,0 +1,49 @@
+.container {
+    margin: 17% 0%;
+}
+
+.image{
+    width: 128px;
+    height: 95px;
+    background-size: 908px;
+}
+
+.pay-icon {
+    background-position: 1429px 864px;
+}
+
+.credit-card {
+    background-position: 1543px 868px;
+}
+
+.bank-slip {
+    background-position: 1270px 868px;
+}
+
+.row .col-lg-6{
+    width: 50%;
+}
+
+.row .col-lg-4{
+    width: 10%;
+}
+
+.row .col-lg-8{
+    width: 90%;
+}
+
+p{
+    color: #BD6D6D;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.fa-circle:before{
+    color: white;
+    border-color: black;
+    border-radius: 12px;
+    border-style:solid;
+    display: inline-block
+}

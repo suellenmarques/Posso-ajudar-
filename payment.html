@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posso ajudar?</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/payment.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container col-lg-6 col-md-6 col-sm-8">
+        <section class="payment">
+            <div class="row title">
+                <div class="col-lg-6">
+                    <h1>PAGAMENTO</h1>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image pay-icon"></div>
+                </div>
+            </div>
+            
+            <form>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="image credit-card"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nome impresso no cartão</label>
+                    <input type="text" class="form-control" id="name" placeholder="Digite o nome impresso no cartão" aria-describedby="name credit-card">
+                </div>
+                <div class="form-group">
+                    <label for="number">Nº do cartão</label>
+                    <input type="text" class="form-control" id="number" placeholder="Digite o número impresso no cartão">
+                </div>
+                <div class="form-group">
+                    <label for="code">Cód. cartão</label>
+                    <input type="number" class="form-control" id="code" placeholder="Digite o código do cartão">   
+                </div>
+                <div class="form-group">
+                    <label for="validity">Validade</label>
+                    <input type="date" class="form-control" id="validity" placeholder="Validade cartão">
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <i class="fa fa-circle"></i>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="image bank-slip"></div>
+                        <p>Imprimir boleto</p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-outline-light">CONFIRMAR<i class="fa fa-arrow-right"></i></button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

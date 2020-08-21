@@ -1,0 +1,64 @@
+.col-lg-5{
+    width: 164px;
+    height: 210px;
+}
+
+.col-lg-5 p{
+    height: 63px;
+}
+
+.row .col-lg-2{
+    width: 85px;
+    height: 210px;
+}
+
+.image{
+    width: 52px;
+    height: 80px;
+}
+
+.delivery{
+    width: 100%;
+    height: 80%;
+    background-position: 237px 403px;
+    background-size: 1000px;
+}
+
+.check-icon {
+    background-position: 149px 499px;
+    background-size: 1635px;
+}
+
+.check-off-icon {
+    background-position: 149px 599px;
+    background-size: 1635px;
+}
+
+p{
+    text-align: left;
+}
+
+.status{
+    font-size: 13pt;
+}
+
+.valuation{
+    width: 140px;
+    height: 180px;
+    background-position: -27px 215px;
+    background-size: 1095px;
+    position: absolute;
+    left: 65px;
+}
+
+h2{
+    color: #BD6D6D;
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 115px;
+    width: 240px
+}
+
+span {
+    font-weight: bold;
+}
